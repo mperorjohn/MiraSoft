@@ -1,0 +1,78 @@
+.NavBar {
+  background-color: #8BB715;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+
+
+
+}
+
+
+.NavBar h2 {
+  margin-left: 10px;
+  color: white;
+  font-size: 40px;
+}
+
+.NavBar ul {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.NavBar ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.NavBar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+:focus {
+  border: 1px green;
+}
+
+.btn {
+  background-color: #8BB715 !important;
+  border: none !important;
+  color: #FFFFFF;
+  /* box-shadow: #6d6d6d 20px 20px 20px !important; */
+}
+
+.learnMore {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  border-radius: 20px;
+  background: transparent;
+  border: #FFFFFF 3px solid;
+  outline: none;
+}
+
+.ReadMore {
+  margin-top: 70px;
+}
+
+.ReadMoreBreak {
+  margin-top: 100px;
+}
+
+.label {
+  color: #8BB715 !important;
+}
+
+option:hover {
+  background-color: #8BB715 !important;
+}
+
+.input {
+  padding: 10px !important;
+}

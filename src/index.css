@@ -1,0 +1,92 @@
+body {
+  margin: auto;
+  display: inline;
+  min-height: 200vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.softwareProvider {
+  background-image: url(./hannah-busing-Zyx1bK9mqmA-unsplash.jpg) !important;
+  background-position: center center;
+  box-sizing: content-box;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  width: 100%;
+
+}
+
+.softwareProvider h1 {
+  font-size: 70px;
+  font-style: italic;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+/* .softwareProvider h1 span {
+  color: #8BB715;
+  border: white 2px;
+} */
+
+#root {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 50vh;
+
+}
+
+#App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+
+}
+
+
+/* .container {} */
+
+.remember {
+  display: flex;
+  margin-top: 5px;
+}
+
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.services span {
+  font-size: 30px;
+  color: #8BB715;
+}
+
+
+.homecards {
+  height: 50vh !important;
+  margin: 10px;
+  box-shadow: #8BB715 10px 10px 20px;
+  border: none;
+  outline: none;
+}
+
+.homecards:hover {
+  background-color: #8BB715 !important;
+  color: white;
+  transition: 0.7s;
+  box-shadow: #6d6d6d 10px 10px 20px;
+  scale: none;
+
+}
